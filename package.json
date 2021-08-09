@@ -1,10 +1,11 @@
 {
-  "name": "Clase04_Observables",
+  "name": "clase04_observables",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/cagramajo/Clase04_Observables/issues"
   },
-  "homepage": "https://github.com/cagramajo/Clase04_Observables#readme"
+  "homepage": "https://github.com/cagramajo/Clase04_Observables#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.12"
+  }
 }
