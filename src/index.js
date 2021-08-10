@@ -16,10 +16,14 @@ document.addEventListener("DOMContentLoaded", ()=>{
         let reverso = texto.split('').reverse().join('');
         if(texto.indexOf('completed') != -1){
             console.log('Deberíamos finalizar OK');
+            subscri.unsubscribe();
         }
             console.log('keyup: ', e.target.value);
         lbl.innerText = reverso;
     });
+
+    
+
 
     setTimeout(()=>{
         subscri.unsubscribe();
